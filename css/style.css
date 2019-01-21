@@ -1,0 +1,73 @@
+html, body {
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #eee;
+	border-radius: 5px;
+}
+
+@media (min-width: 1025px)  {
+	.container{
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.remove-btn-col {
+		padding: 0;
+	}
+}
+
+.todo-list {
+	margin: 0 5px;
+}
+
+.input-block {
+	margin: 20px;
+}
+
+#new-task-input {
+	font-family: Abel, Tahoma, Garuda, Verdana, sans-serif;
+	font-size: 18px;
+}
+
+.task-text {
+	font-family: Abel, Tahoma, Garuda, Verdana, sans-serif;
+	font-size: 18px;
+	padding-left: 7px;
+}
+
+.progress {
+	padding: 0;
+}
+
+.progress-row {
+	margin: 0 0 0 5px;
+}
+
+.shadow {
+	box-shadow: 0 0 15px #FFF;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.list-group-item {
+	cursor: move;
+}
+
+.remove-btn {
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+:checked + span {
+	text-decoration: line-through;
+}
